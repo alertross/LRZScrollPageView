@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Test2VC.h"
 
 @interface ViewController ()
 
@@ -21,7 +22,13 @@
     
 }
 
-
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    Test2VC *vc = [[Test2VC alloc] init];
+    vc.type = 1;
+    vc.title = @"tttt";
+    [self.navigationController pushViewController:vc animated:true];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
