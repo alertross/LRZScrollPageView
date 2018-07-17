@@ -16,9 +16,9 @@
 		A17E30AE20FD8D1000245B39 /* Test1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30AD20FD8D1000245B39 /* Test1VC.m */; };
 		A17E30B120FD8D1C00245B39 /* Test2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30B020FD8D1C00245B39 /* Test2VC.m */; };
 		A17E30B420FD8D2900245B39 /* Test3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30B320FD8D2900245B39 /* Test3VC.m */; };
-		A17E30B720FD8D5C00245B39 /* LRZScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30B620FD8D5C00245B39 /* LRZScrollPageView.m */; };
-		A17E30BA20FD8DB000245B39 /* LRZNestScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30B920FD8DB000245B39 /* LRZNestScrollPageView.m */; };
-		A17E30BD20FD8DC400245B39 /* LRZPageSegmentCT.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30BC20FD8DC400245B39 /* LRZPageSegmentCT.m */; };
+		A17E30C520FDC65300245B39 /* LRZNestScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30C220FDC65300245B39 /* LRZNestScrollPageView.m */; };
+		A17E30C620FDC65300245B39 /* LRZPageSegmentCT.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30C320FDC65300245B39 /* LRZPageSegmentCT.m */; };
+		A17E30C720FDC65300245B39 /* LRZScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E30C420FDC65300245B39 /* LRZScrollPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +38,12 @@
 		A17E30B020FD8D1C00245B39 /* Test2VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2VC.m; sourceTree = "<group>"; };
 		A17E30B220FD8D2900245B39 /* Test3VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3VC.h; sourceTree = "<group>"; };
 		A17E30B320FD8D2900245B39 /* Test3VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3VC.m; sourceTree = "<group>"; };
-		A17E30B520FD8D5C00245B39 /* LRZScrollPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRZScrollPageView.h; sourceTree = "<group>"; };
-		A17E30B620FD8D5C00245B39 /* LRZScrollPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRZScrollPageView.m; sourceTree = "<group>"; };
-		A17E30B820FD8DB000245B39 /* LRZNestScrollPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRZNestScrollPageView.h; sourceTree = "<group>"; };
-		A17E30B920FD8DB000245B39 /* LRZNestScrollPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRZNestScrollPageView.m; sourceTree = "<group>"; };
-		A17E30BB20FD8DC400245B39 /* LRZPageSegmentCT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRZPageSegmentCT.h; sourceTree = "<group>"; };
-		A17E30BC20FD8DC400245B39 /* LRZPageSegmentCT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRZPageSegmentCT.m; sourceTree = "<group>"; };
+		A17E30BF20FDC65300245B39 /* LRZNestScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRZNestScrollPageView.h; sourceTree = "<group>"; };
+		A17E30C020FDC65300245B39 /* LRZScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRZScrollPageView.h; sourceTree = "<group>"; };
+		A17E30C120FDC65300245B39 /* LRZPageSegmentCT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRZPageSegmentCT.h; sourceTree = "<group>"; };
+		A17E30C220FDC65300245B39 /* LRZNestScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRZNestScrollPageView.m; sourceTree = "<group>"; };
+		A17E30C320FDC65300245B39 /* LRZPageSegmentCT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRZPageSegmentCT.m; sourceTree = "<group>"; };
+		A17E30C420FDC65300245B39 /* LRZScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRZScrollPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		A17E309020FD8B0400245B39 /* LRZScrollPageView */ = {
 			isa = PBXGroup;
 			children = (
-				A17E30A720FD8CBD00245B39 /* LRZPageCore */,
-				A17E30A820FD8CBD00245B39 /* LRZWaterFall */,
+				A17E30BE20FDC65300245B39 /* LRZPageCore */,
+				A17E30A720FD8CBD00245B39 /* LRZWaterFall */,
 				A17E309120FD8B0400245B39 /* AppDelegate.h */,
 				A17E309220FD8B0400245B39 /* AppDelegate.m */,
 				A17E309420FD8B0400245B39 /* ViewController.h */,
@@ -97,24 +97,24 @@
 			path = LRZScrollPageView;
 			sourceTree = "<group>";
 		};
-		A17E30A720FD8CBD00245B39 /* LRZPageCore */ = {
+		A17E30A720FD8CBD00245B39 /* LRZWaterFall */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = LRZPageCore;
-			sourceTree = "<group>";
-		};
-		A17E30A820FD8CBD00245B39 /* LRZWaterFall */ = {
-			isa = PBXGroup;
-			children = (
-				A17E30B820FD8DB000245B39 /* LRZNestScrollPageView.h */,
-				A17E30B920FD8DB000245B39 /* LRZNestScrollPageView.m */,
-				A17E30B520FD8D5C00245B39 /* LRZScrollPageView.h */,
-				A17E30B620FD8D5C00245B39 /* LRZScrollPageView.m */,
-				A17E30BB20FD8DC400245B39 /* LRZPageSegmentCT.h */,
-				A17E30BC20FD8DC400245B39 /* LRZPageSegmentCT.m */,
 			);
 			path = LRZWaterFall;
+			sourceTree = "<group>";
+		};
+		A17E30BE20FDC65300245B39 /* LRZPageCore */ = {
+			isa = PBXGroup;
+			children = (
+				A17E30BF20FDC65300245B39 /* LRZNestScrollPageView.h */,
+				A17E30C020FDC65300245B39 /* LRZScrollPageView.h */,
+				A17E30C120FDC65300245B39 /* LRZPageSegmentCT.h */,
+				A17E30C220FDC65300245B39 /* LRZNestScrollPageView.m */,
+				A17E30C320FDC65300245B39 /* LRZPageSegmentCT.m */,
+				A17E30C420FDC65300245B39 /* LRZScrollPageView.m */,
+			);
+			path = LRZPageCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,14 +188,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17E30B420FD8D2900245B39 /* Test3VC.m in Sources */,
-				A17E30BD20FD8DC400245B39 /* LRZPageSegmentCT.m in Sources */,
 				A17E309620FD8B0400245B39 /* ViewController.m in Sources */,
+				A17E30C720FDC65300245B39 /* LRZScrollPageView.m in Sources */,
+				A17E30C520FDC65300245B39 /* LRZNestScrollPageView.m in Sources */,
 				A17E30A120FD8B0500245B39 /* main.m in Sources */,
-				A17E30BA20FD8DB000245B39 /* LRZNestScrollPageView.m in Sources */,
+				A17E30C620FDC65300245B39 /* LRZPageSegmentCT.m in Sources */,
 				A17E30B120FD8D1C00245B39 /* Test2VC.m in Sources */,
 				A17E30AE20FD8D1000245B39 /* Test1VC.m in Sources */,
 				A17E309320FD8B0400245B39 /* AppDelegate.m in Sources */,
-				A17E30B720FD8D5C00245B39 /* LRZScrollPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
