@@ -15,10 +15,10 @@
 @property(nonatomic,retain)NSArray<LRZScrollPageItemBaseView *> *dataViews;
 @property(nonatomic,retain)NSMutableArray<UIScrollView *> *scrollArray;
 @property(nonatomic,retain)UIView *headView;
-@property(nonatomic,assign)BOOL scrollTag;
+@property(nonatomic,assign)BOOL scrollTag;  //标记LRZSMGRScrollView是否需要滑动
 @property(nonatomic,assign)CGFloat lastDy;
 @property(nonatomic,assign)BOOL nextReturn;
-@property(nonatomic,assign)CGFloat stayHeight;
+@property(nonatomic,assign)CGFloat stayHeight;//scrollView<LRZSMGRScrollView>保持的停留距离
 
 @end
 
@@ -34,6 +34,7 @@
         self.param = param;
         self.dataViews = dataViews;
         if (self.param == nil) {self.param = [LRZNestParam defaultParam];}
+        //设置scrollView的保持距离
         self.stayHeight = _headView.frame.size.height - fabs(_param.yOffset);
         [self pageView];
     }
