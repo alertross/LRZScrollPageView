@@ -108,11 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				A17E30BF20FDC65300245B39 /* LRZNestScrollPageView.h */,
-				A17E30C020FDC65300245B39 /* LRZScrollPageView.h */,
-				A17E30C120FDC65300245B39 /* LRZPageSegmentCT.h */,
 				A17E30C220FDC65300245B39 /* LRZNestScrollPageView.m */,
-				A17E30C320FDC65300245B39 /* LRZPageSegmentCT.m */,
+				A17E30C020FDC65300245B39 /* LRZScrollPageView.h */,
 				A17E30C420FDC65300245B39 /* LRZScrollPageView.m */,
+				A17E30C120FDC65300245B39 /* LRZPageSegmentCT.h */,
+				A17E30C320FDC65300245B39 /* LRZPageSegmentCT.m */,
 			);
 			path = LRZPageCore;
 			sourceTree = "<group>";
